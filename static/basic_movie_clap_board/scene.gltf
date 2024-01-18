@@ -1,0 +1,425 @@
+{
+  "accessors": [
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2438,
+      "max": [
+        7.700595855712891,
+        0.36166995763778687,
+        0.39337754249572754
+      ],
+      "min": [
+        -0.4761040210723877,
+        -0.36169004440307617,
+        -5.764522552490234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 29256,
+      "componentType": 5126,
+      "count": 2438,
+      "max": [
+        0.9951946139335632,
+        1.0,
+        0.9951946139335632
+      ],
+      "min": [
+        -0.9951946139335632,
+        -1.0,
+        -0.9951946139335632
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2438,
+      "max": [
+        0.9989928007125854,
+        1.0,
+        0.9993796348571777,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2438,
+      "max": [
+        0.9919800162315369,
+        0.9862300157546997
+      ],
+      "min": [
+        0.008019999600946903,
+        0.008019999600946903
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 10296,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.2595199942588806,
+        0.0,
+        0.0,
+        0.2595199942588806,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        0.2595199942588806,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.2595199942588806,
+        0.0,
+        0.0,
+        -0.2595199942588806,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 2438,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 39008,
+      "componentType": 5126,
+      "count": 2438,
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "tessstander (https://sketchfab.com/tessstander)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/basic-movie-clap-board-518a346ad70d4ef6b90f6ce2b117b627",
+      "title": "Basic movie clap board"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 19504,
+      "byteStride": 8,
+      "name": "shortBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 41184,
+      "byteOffset": 19504,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19504,
+      "byteOffset": 60688,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 58512,
+      "byteOffset": 80192,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 78016,
+      "byteOffset": 138704,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 216720,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 216912,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/clap_boad_baseColor.png"
+    },
+    {
+      "uri": "textures/clap_boad_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/clap_boad_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "clap_boad",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "clap board",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 6,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "WEIGHTS_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3,
+        7,
+        6
+      ],
+      "matrix": [
+        3.8533,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.8533,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.8533,
+        0.0,
+        -3.6122699999999996,
+        -0.0029000000000000007,
+        1.3683800000000002,
+        1.0
+      ],
+      "name": "clap arm"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "clap arm_rootJoint"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "body_b_clap_arm",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "top_b_clap_arm",
+      "rotation": [
+        0.9805130958557129,
+        -0.19645367562770844,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.9999979138374329,
+        0.9999979138374329,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "matrix": [
+        0.25952000000000003,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.25952000000000003,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.25952000000000003,
+        0.0,
+        0.93745,
+        0.0007500000000000002,
+        -0.35512000000000005,
+        1.0
+      ],
+      "name": "clap board"
+    },
+    {
+      "mesh": 0,
+      "name": "clap board_0",
+      "skin": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 5,
+      "joints": [
+        3,
+        4,
+        5
+      ],
+      "skeleton": 3
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

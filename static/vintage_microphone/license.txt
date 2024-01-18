@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vintage Microphone
+* source:	https://sketchfab.com/3d-models/vintage-microphone-e70da12e1c574aaebb0d329d4d6faa53
+* author:	ersinkiymaz (https://sketchfab.com/ersinkiymaz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vintage Microphone" (https://sketchfab.com/3d-models/vintage-microphone-e70da12e1c574aaebb0d329d4d6faa53) by ersinkiymaz (https://sketchfab.com/ersinkiymaz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

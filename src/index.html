@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <script>
+
+
+    </script>
+</head>
+<body>
+    <div id="kp-message">
+        Hi Kleiner Perkins Team<br \><br \>
+    
+        This is my Design Challenge for the Kleiner Perkins Summer 2024 Design Fellowship! <br \><br \>
+        
+        I remade the home page of your portfoio company Cameo's website (www.Cameo.com) because it seemed a bit unintuitive for an otherwise straightforward product. <br \><br \>
+        
+        Navigating to the Actors, Comedians, Athletes, Musicians and other talents on Cameo's website requires multiple button presses all inside of a lack luster design which would decrease the number of customers who carry through with a transaction on the webpage.<br \><br \>
+        
+        I improved upon this design by reducing the number of button presses it takes to place an order by placing the category redirect links in the top right corner of the screen, made them larger, and highlighted them so that they seem much more accessable than they appear on cameo.com <br \><br \>
+
+        Additionally, I added some interactive natively rendered 3d elements to the page to add some much needed color and vibrance! Try hovering your cursor over the Actors, Comedians, Musicians, and athletes buttons in the top right and you will see what I mean! <br \><br \>
+
+        I hope you like it and for another interactive experience, and some more of my projects, go check out my website that I linked in my application (www.NolanRossi.com) <br \><br \>
+        
+        Thank you KP Team for reviewing my application and I look forwards to your response! <br \> <br \>
+        
+        -Nolan <br \> <br \>
+        <div id="toggleButton" onClick="toggleForm()">Continue</div>
+
+    </div>
+
+    <section class="section">
+        <img src="/static/logo_white.svg" id="logo">
+        <div id="home">For Kids</div>
+        <div id="aboutme">For Business</div>
+        <div id="projects">How it works</div>
+        <div id="contact">Join as talent</div>
+    </section>
+    <div id="overlay-text">Personalized videos from your favorite stars</div>
+    </div>
+    <div id="page-row">
+        <div id="Threejscanvas"><canvas class="webgl"></canvas></div>
+
+        <div id="main-content">
+            <div id="nav-wrapper">
+                <div id="nav-content">
+                    <div id="outer-option-bar">
+                        <div id="inner-option-bar">
+                            <div id="toggleActors" class="toggle-button" onclick="toggleActors()"><div>Actors</div></div>
+                            <div id="toggleComedians" class="toggle-button" onclick="toggleComedians()"><div>Comedians</div></div>
+                            <div id="toggleMusicians" class="toggle-button" onclick="toggleMusicians()"><div>Musicians</div></div>
+                            <div id="toggleAthletes" class="toggle-button" onclick="toggleAthletes()"><div>Athletes</div></div>
+        
+        
+                        </div>
+                        
+                    </div>
+                    <img id="direction-container1" src="/static/cameo-directions1.png" \>
+                    <img id="direction-container2" src="/static/cameo-directions2.png" \>
+                    
+                    <div id="featured">
+                        <div id="featured-text">
+                            <p>
+                                Featured stars
+                            </p>
+                        </div>
+                        
+                        <img id="image-container" src="/static/kp-athletes.png" \>
+                    </div>
+    
+                </div>
+                
+        
+            </div>
+            
+    
+        </div>
+    </div>
+
+    
+
+    
+    <div id="loading-screen">
+        <div id="loading-bar"></div>
+        <div id="loading-text">Loading KP Design Challenge</div>
+        <div class="lds-ellipsis"> <div></div> <div></div> <div></div> <div></div> </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.2/gsap.min.js"></script>
+<script>
+    var toggleButton = document.getElementById("toggleButton");
+    var kpMessage = document.getElementById("kp-message");
+
+function toggleForm(e) {
+    kpMessage.classList.toggle('hideForm');
+}
+    document.addEventListener("DOMContentLoaded", function () {
+        
+        function toggleActors() {
+            resetToggleButtons();
+            const div = document.getElementById('toggleActors');
+            div.classList.toggle('selected');
+        }
+
+        function toggleAthletes() {
+            resetToggleButtons();
+            const div = document.getElementById('toggleAthletes');
+            div.classList.toggle('selected');
+        }
+
+        function toggleMusicians() {
+            resetToggleButtons();
+            const div = document.getElementById('toggleMusicians');
+            div.classList.toggle('selected');
+        }
+
+        function toggleComedians() {
+            resetToggleButtons();
+            const div = document.getElementById('toggleComedians');
+            div.classList.toggle('selected');
+        }
+
+        function resetToggleButtons() {
+            // Remove 'selected' class from all toggle buttons
+            const buttons = document.querySelectorAll('.toggle-button');
+            buttons.forEach(button => {
+                button.classList.remove('selected');
+            });
+        }
+
+    });
+</script>
+</html>

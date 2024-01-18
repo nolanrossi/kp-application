@@ -1,0 +1,11 @@
+Model Information:
+* title:	Master Chief Mark VI Helmet
+* source:	https://sketchfab.com/3d-models/master-chief-mark-vi-helmet-066df3aa29b74af4812b11700ea202f2
+* author:	Edouard Goupil (https://sketchfab.com/goupiledouard)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Master Chief Mark VI Helmet" (https://sketchfab.com/3d-models/master-chief-mark-vi-helmet-066df3aa29b74af4812b11700ea202f2) by Edouard Goupil (https://sketchfab.com/goupiledouard) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

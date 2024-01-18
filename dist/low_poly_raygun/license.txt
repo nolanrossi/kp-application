@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low poly Raygun
+* source:	https://sketchfab.com/3d-models/low-poly-raygun-84046f5c72f34f03ab46d1fe54f1e6af
+* author:	FristiSenpai (https://sketchfab.com/FristiSenpai)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low poly Raygun" (https://sketchfab.com/3d-models/low-poly-raygun-84046f5c72f34f03ab46d1fe54f1e6af) by FristiSenpai (https://sketchfab.com/FristiSenpai) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
